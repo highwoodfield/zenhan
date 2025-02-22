@@ -3,6 +3,10 @@
 #include <windows.h>
 #include <iostream>
 
+/*
+* 引数無しで実行した場合、IMEが無効なら0を、有効なら1を標準出力に出力する。
+* 引数をつけて実行した場合、それが1ならIMEは有効になり、そうでなければ無効になる。指定された引数を出力する。
+*/
 int
 main(int argc, char** argv)
 {
