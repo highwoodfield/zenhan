@@ -36,6 +36,6 @@ main(int argc, char** argv)
       stat = std::atoi(argv[1]);
       SendMessage(ime, WM_IME_CONTROL, IMC_SETOPENSTATUS, stat);
   }
-  std::printf("%d\n", stat);
+  std::printf("%lld\n", stat);
   return 0;
 }
